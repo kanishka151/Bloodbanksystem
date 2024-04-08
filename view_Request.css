@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('bb2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.blood-group-request {
+    width: 80%; /* Adjust as per your design */
+    max-width: 1200px; /* Maximum width for larger screens */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px; /* Make container rectangular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px; /* Equal side spacing */
+    
+}
+
+.blood-group-request select {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blood-group-request button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.request-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.request-list ul li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .blood-group-request select, 
+    .blood-group-request button {
+        max-width: 100%;
+    }
+}
